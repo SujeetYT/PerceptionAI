@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { ChevronLeft, ChevronRight, Key } from 'react-feather'
+import { ChevronLeft, ChevronRight} from 'react-feather'
 
 const Carousel = ({children: slides, autoSlide=false, autoSlideInterval=3000}) => {
 

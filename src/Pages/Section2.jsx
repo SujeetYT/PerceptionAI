@@ -3,9 +3,9 @@ const image = "https://firebasestorage.googleapis.com/v0/b/perception-ai-14ae8.a
 
 const Section2 = () => {
   return (
-    <div className='flex flex-col w-[100%] h-min-[30rem] justify-center items-center relative z-10 border-b-[1px] border-[#ffffff2f] py-10'>
-        <p>I want to...</p>
-        <div className="flex justify-around items-center flex-wrap gap-5">
+    <div className='flex flex-col w-[100%] min-h-[30rem] justify-center items-center relative z-10 border-b-[1px] border-[#ffffff2f] py-10'>
+        <p className='text-white w-[20rem] text-3xl font-bold mt-10 text-center'>I want to...</p>
+        <div className="flex justify-around items-center flex-wrap gap-5 mt-10">
             <button className='w-40 h-10 text-white bg-gradient-to-r from-[#6549d5] via-[#e33fa1] to-[#fb5343] rounded-full flex justify-center items-center text-lg'>Prioritize Better</button>
             <button className='w-40 h-10 text-white bg-gradient-to-r from-[#6549d5] via-[#e33fa1] to-[#fb5343] rounded-full flex justify-center items-center text-lg'>Know Perception</button>
             <button className='w-40 h-10 text-white bg-gradient-to-r from-[#6549d5] via-[#e33fa1] to-[#fb5343] rounded-full flex justify-center items-center text-lg'>Perception</button>

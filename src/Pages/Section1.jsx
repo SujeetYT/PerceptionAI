@@ -6,17 +6,17 @@ import picsart from "../assets/picsart.png"
 import sharechat from "../assets/sharechat.png"
 import stripe from "../assets/stripe.png"
 
-const images = [jupiter, miro, onefootball, picsart, sharechat, stripe];
+const images = [miro, picsart, sharechat, onefootball, stripe, jupiter];
 
 const Section1 = () => {
   return (
-    <div className='flex flex-col w-[100%] h-min-[30rem] justify-center items-center relative z-10 border-b-[1px] border-[#ffffff2f] py-10'>
-        <p className='text-[24px] text-white font-bold'>Trusted by world’s top companies across globe</p>
-        <div className="w-[100%] flex flex-wrap justify-evenly">
+    <div className='flex flex-col w-[100%] min-h-[25rem] justify-around items-center relative z-10 border-b-[1px] border-[#ffffff2f] py-6'>
+        <p className='text-3xl text-white font-bold text-center'>Trusted by world’s top companies across globe</p>
+        <div className="flex flex-wrap justify-center items-center">
             {images.map((c, idx)=>(
                     <img 
                         src={c}  
-                        style={{marginRight:'6.5rem', marginTop:'4.5rem', height:'70px', width:'fit-content', backgroundColor:'#fff'}}
+                        style={{marginRight:'1.5rem', marginTop:'4.5rem', height:'70px', width:'fit-content', backgroundColor:'#fff'}}
                         alt='Company logo'
                         key={idx}
                     />
