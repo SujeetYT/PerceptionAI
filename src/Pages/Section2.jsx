@@ -20,7 +20,6 @@ const Section2 = () => {
                 <img src={image} alt="illustration" />
             </div>
         </div>
-
     </div>
   )
 }

@@ -3,6 +3,7 @@ import Bubble from "./assets/Bubble"
 import Hero from "./Pages/Hero";
 import Section1 from "./Pages/Section1";
 import Section2 from "./Pages/Section2";
+import Section3 from "./Pages/Section3";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Hero />
           <Section1 />
           <Section2 />
+          <Section3 />
         </div>
         <Footer />
       </div>
